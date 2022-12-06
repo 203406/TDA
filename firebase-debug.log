@@ -1,0 +1,72 @@
+[debug] [2022-12-06T23:37:14.847Z] ----------------------------------------------------------------------
+[debug] [2022-12-06T23:37:14.853Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Daniel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-12-06T23:37:14.854Z] CLI Version:   11.16.0
+[debug] [2022-12-06T23:37:14.855Z] Platform:      win32
+[debug] [2022-12-06T23:37:14.855Z] Node Version:  v16.15.1
+[debug] [2022-12-06T23:37:14.864Z] Time:          Tue Dec 06 2022 17:37:14 GMT-0600 (hora estándar central)
+[debug] [2022-12-06T23:37:14.865Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-06T23:37:15.030Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-06T23:37:15.031Z] > authorizing via signed-in user (203406@ids.upchiapas.edu.mx)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Daniel\Desktop\TDA
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-06T23:37:19.517Z] Using project from CLI flag: tda-page
+[debug] [2022-12-06T23:37:19.529Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tda-page [none]
+[debug] [2022-12-06T23:37:20.206Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tda-page 200
+[debug] [2022-12-06T23:37:20.207Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tda-page {"projectId":"tda-page","projectNumber":"1049977458973","displayName":"tda-page","name":"projects/tda-page","resources":{"hostingSite":"tda-page","realtimeDatabaseInstance":"tda-page-default-rtdb"},"state":"ACTIVE","etag":"1_6d798786-475a-4e61-b9a9-3428584bcec0"}
+[info] i  Using project tda-page (tda-page) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-12-06T23:37:46.277Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-12-06T23:37:46.704Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-12-06T23:37:46.704Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.14.0","browserURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.tgz"},"live":{"version":"9.14","browserURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.14.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.14.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.14.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.14.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.14.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Daniel\Desktop\TDA 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=590267323&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-12-06T23:38:04.278Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-12-06T23:38:04.279Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-12-06T23:38:04.906Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-12-06T23:38:04.906Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-12-06T23:38:04.928Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-12-06T23:38:05.545Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-12-06T23:38:05.545Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"203406","id":78428042,"node_id":"MDQ6VXNlcjc4NDI4MDQy","avatar_url":"https://avatars.githubusercontent.com/u/78428042?v=4","gravatar_id":"","url":"https://api.github.com/users/203406","html_url":"https://github.com/203406","followers_url":"https://api.github.com/users/203406/followers","following_url":"https://api.github.com/users/203406/following{/other_user}","gists_url":"https://api.github.com/users/203406/gists{/gist_id}","starred_url":"https://api.github.com/users/203406/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/203406/subscriptions","organizations_url":"https://api.github.com/users/203406/orgs","repos_url":"https://api.github.com/users/203406/repos","events_url":"https://api.github.com/users/203406/events{/privacy}","received_events_url":"https://api.github.com/users/203406/received_events","type":"User","site_admin":false,"name":"Daniel Ivan Flores Perez","company":null,"blog":"","location":"Tuxtla Gutierrez, Chiapas, Mexico","email":null,"hireable":null,"bio":"software enginering student","twitter_username":null,"public_repos":21,"public_gists":0,"followers":0,"following":0,"created_at":"2021-02-02T14:26:36Z","updated_at":"2022-12-06T23:37:55Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":112202,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as 203406 
+[info] 
+[debug] [2022-12-06T23:38:12.900Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-12-06T23:38:13.334Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-12-06T23:38:13.334Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-12-06T23:38:16.046Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-12-06T23:38:16.518Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-12-06T23:38:16.518Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
